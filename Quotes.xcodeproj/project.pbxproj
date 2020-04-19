@@ -13,10 +13,12 @@
 		B4640B9C243868610060B0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4640B9B243868610060B0B2 /* Assets.xcassets */; };
 		B4640B9F243868610060B0B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4640B9E243868610060B0B2 /* Preview Assets.xcassets */; };
 		B4640BA2243868610060B0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4640BA0243868610060B0B2 /* LaunchScreen.storyboard */; };
+		B48D3FAB243A2660006B623E /* QuoteInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48D3FAA243A2660006B623E /* QuoteInput.swift */; };
+		B4AA4BB2244439DD0055A20F /* QuoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA4BB1244439DD0055A20F /* QuoteList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4640B922438685F0060B0B2 /* Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4640B922438685F0060B0B2 /* Quote Guru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quote Guru.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4640B95243868600060B0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4640B97243868600060B0B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4640B99243868600060B0B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		B4640B9E243868610060B0B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4640BA1243868610060B0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4640BA3243868610060B0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48D3FAA243A2660006B623E /* QuoteInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteInput.swift; sourceTree = "<group>"; };
+		B4AA4BB1244439DD0055A20F /* QuoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		B4640B932438685F0060B0B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4640B922438685F0060B0B2 /* Quotes.app */,
+				B4640B922438685F0060B0B2 /* Quote Guru.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +63,8 @@
 				B4640B95243868600060B0B2 /* AppDelegate.swift */,
 				B4640B97243868600060B0B2 /* SceneDelegate.swift */,
 				B4640B99243868600060B0B2 /* ContentView.swift */,
+				B48D3FAA243A2660006B623E /* QuoteInput.swift */,
+				B4AA4BB1244439DD0055A20F /* QuoteList.swift */,
 				B4640B9B243868610060B0B2 /* Assets.xcassets */,
 				B4640BA0243868610060B0B2 /* LaunchScreen.storyboard */,
 				B4640BA3243868610060B0B2 /* Info.plist */,
@@ -92,7 +98,7 @@
 			);
 			name = Quotes;
 			productName = Quotes;
-			productReference = B4640B922438685F0060B0B2 /* Quotes.app */;
+			productReference = B4640B922438685F0060B0B2 /* Quote Guru.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AA4BB2244439DD0055A20F /* QuoteList.swift in Sources */,
 				B4640B96243868600060B0B2 /* AppDelegate.swift in Sources */,
 				B4640B98243868600060B0B2 /* SceneDelegate.swift in Sources */,
 				B4640B9A243868600060B0B2 /* ContentView.swift in Sources */,
+				B48D3FAB243A2660006B623E /* QuoteInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +294,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Quotes/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VJYHQVG2L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Quotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Quotes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Quotes123;
+				PRODUCT_NAME = "Quote Guru";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,14 +314,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Quotes/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VJYHQVG2L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Quotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Quotes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Quotes123;
+				PRODUCT_NAME = "Quote Guru";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
